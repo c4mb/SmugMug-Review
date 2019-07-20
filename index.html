@@ -21,12 +21,18 @@
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <link rel="stylesheet" href="css/normalize.css">
   <link rel="stylesheet" href="css/skeleton.css">
+  <link rel="stylesheet" href="css/custom.css">
+
+  <!-- Scripts
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="js/site.js"></script>
 
   <!-- Favicon
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <link rel="icon" type="image/png" href="images/favicon.png">
 
-  <!-- Google Analytics
+  <!-- Google Analytics inc enhanced link attribution
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <script>
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
@@ -52,32 +58,49 @@
       <h4>Sharing Photography with</h4>
       <img class="u-pull-center" src="images/SmugMug-Logo.png" alt="logo"/>
       </div>
-      <div class="six columns spacesml">
-        <h4>A SmugMug Review</h4>
+      <div class="six columns spacemed">
+        <a id="intro"></a><h4>A SmugMug Review</h4>
         <h5>Upload, host and share your priceless photos in a style you want, while every original is safe and secure.</h5>
         <h5>Don't let Social Media down-sample your brilliant photos and thus ruin your visual legacy.</h5>
         <h5>There are 4 user account tiers; Basic, Power, Portfolio &amp; Business. I cover the best features below.</h5>
-        <div id="buttontexttop" class="spacelge">
-<a class="button button-primary" href="http://smu.gs/1QcbWIY">Get Started</a>
-      </div>
       </div>
     </div>
-    <div class="row spacemed">
-      <div class="twelve columns">
-      <img class="u-pull-center" src="images/chevron-down.png" alt="scroll down"/> </div>
+    <div class="row spacelge">
+      <div class="twelve columns arrow">
+      <img class="u-pull-center" src="images/chevron-down.png" alt="scroll down"/>
+      </div>
     </div>
+    <div class="navbar-spacer"></div>
+    <nav class="navbar">
+      <div class="container">
+        <ul class="navbar-list">
+          <li class="navbar-item"><a class="navbar-link" href="#intro">Intro</a></li>
+          <li class="navbar-item"><a class="navbar-link" href="#features">Features</a></li>
+          <li class="navbar-item"><a class="navbar-link" href="#pricing">Pricing</a></li>
+          <li class="navbar-item"><a class="navbar-link" href="#summary">Summary</a><a class="button button-primary" href="http://smu.gs/2tVngCS">Create my website</a></li>
+        </ul>
+      </div>
+    </nav><a id="features"></a>
     <div class="row spacelge">
       <div class="twelve columns">
         <h4>Features</h4>
+      </div>
+    </div>
+    <div class="row">
+      <div class="six columns">
         <ul>
-          <li><strong>Unlimited Storage</strong> - Yeah, unlimited. Up to 50mb/100mp each.</li>
+          <li><strong>Unlimited Storage</strong> - Yeah, unlimited. Up to 150mb/210mp each.</li>
           <li><strong>Fully Customisable</strong> - Choose a theme or design your own. Easy drag &amp; drop user interface.</li>
           <li><strong>Responsive Layout</strong> - Magic on tablets &amp; mobile devices.</li>
           <li><strong>Custom Domain</strong> - Use your own domain name.</li>
           <li><strong>Simple Organisation</strong> - Drag &amp; drop user interface.</li>
           <li><strong>Easy Sharing</strong> - Share to social networks &amp; forums. Publish to Facebook feature.</li>
-          <li><strong>Always Live, Always Fast</strong> - 99.97% uptime &amp; 873ms response time (3 month average via Pingdom).</li>
+          <li><strong>Always Live, Always Fast</strong> - 99.97% uptime (over 3 months via Pingdom).</li>
           <li><strong>Two Awesome Apps</strong> - Built by SmugMug, integrates with SmugMug.</li>
+        </ul>
+      </div>
+      <div class="six columns">
+        <ul>
           <li><strong>Safe &amp; Secure</strong> - Amazing infrastructure with Amazon Web Services.</li>
           <li><strong>HD Video</strong> - Up to 3gb in size, 1080p.</li>
           <li><strong>Privacy at Your Control</strong> - Password protect galleries, or your whole site.</li>
@@ -92,7 +115,7 @@
       <div class="six columns">
         <h4><img class="icons" src="images/icon_50_22.png" alt="upload icon"/>Unlimited Storage</h4>
         <p><strong>All user accounts</strong></p>
-        <p>Exactly what it means, unlimited uploads &amp; storage. Though, SmugMug does say &quot;within reason&quot;. Accepted file types are JPG, GIF, and PNG. The current size limitations are 50 megabytes and 100 megapixels. Anything over, they will re-sample it. The SmugVault paid add-on will accept all file types and images up to 3 gigabytes each.</p>
+        <p>Exactly what it means, unlimited uploads &amp; storage. Though, SmugMug does say &quot;within reason&quot;. Accepted file types are JPG, GIF, and PNG. The current size limitations are 150 megabytes and 210 megapixels. Anything over, they will try to resample it. The SmugVault paid add-on will accept all file types and images up to 3 gigabytes each.</p>
       </div>
       <div class="six columns">
         <h4><img class="icons" src="images/icon_50_79.png" alt="settings icon"/>Fully Customisable</h4>
@@ -126,7 +149,7 @@
       <div class="six columns">
         <h4><img class="icons" src="images/icon_50_01.png" alt="share icon"/>Easy Sharing</h4>
         <p><strong>All user accounts</strong></p>
-        <p>Share to Social Media, a forum, send an email, or simply get a link for any image, album or folder. There is a specific publish to Facebook feature for albums as well.</p>
+        <p>Share to social media, a forum, or simply get a link for any image, album or folder. Share a photo/album via email from your SmugMug account, that includes read and click statistics. Power users and above can share albums privately. There is a specific publish to Facebook feature for all users as well.</p>
       </div>
       <div class="six columns">
         <h4><img class="icons" src="images/icon_50_78.png" alt="folder icon"/>Simple Organisation</h4>
@@ -143,7 +166,7 @@
       <div class="six columns">
         <h4><img class="icons" src="images/icon_50_40.png" alt="tick icon"/>Always Live, Always Fast</h4>
         <p><strong>All user accounts</strong></p>
-        <p>I signed up for a Standard Pingdom account for 3 months and had it monitor various sites, on various hosting platforms. SmugMug was consistently the best, outperforming sites on expensive VPS plans. Pingdom reported 5 minuscule outages with 99.97% uptime and 873ms average response time.</p>
+        <p>I signed up for a Standard Pingdom account for 3 months (Dec 2013 - Jan 2014) and had it monitor various sites, on various hosting platforms. SmugMug was consistently the best, outperforming sites on expensive VPS plans. Pingdom reported 5 minuscule outages with 99.97% uptime and 873ms average response time.</p>
       </div>
       <div class="six columns">
         <h4><img class="icons" src="images/icon_50_23.png" alt="locked icon"/>Safe &amp; Secure</h4>
@@ -167,7 +190,7 @@
       <div class="six columns">
         <h4><img class="icons" src="images/icon_50_83.png" alt="video icon"/>HD Video</h4>
         <p><strong>All user accounts</strong></p>
-        <p>Upload nice and sharp high definition video. Supports true HD, 1920 x 1080 pixels. Can be up to 20 minutes in length and 3 gigabytes in size. I’ll be honest here, the playback hasn’t been that great in my experience (speed 7-9mb/s). SmugMug have a YouTube hosted video on their own homepage and support page, not a great look if they host video themselves.</p>
+        <p>Supports true HD, 1920 x 1080 pixels. Can be up to 20 minutes in length and 3 gigabytes in size. They don’t store the original uploaded video, they create a high quality display copy which is &quot;probably altered&quot; from the original. The playback hasn’t been that great in my experience (speed 7-9mb/s). SmugMug have YouTube hosted video on their own homepage and support page, not a great look if they host video themselves.</p>
       </div>
       <div class="six columns">
         <h4><img class="icons" src="images/icon_50_24.png" alt="unlocked icon"/>Privacy at Your Control</h4>
@@ -182,7 +205,7 @@
         <p>Not my forte I must say, but I reckon you won't be disappointed if that's your thing. Supposedly used by thousands upon thousands of professionals worldwide. Why would you pay an expensive web design company when you could easily do it all yourself? Business users also get custom price lists, and can setup a password for an assistant that has less account privileges.</p>
       </div>
       <div class="six columns">
-        <h4><img class="icons" src="images/icon_50_51.png" alt="person icon"/>New: Client Area</h4>
+        <h4><img class="icons" src="images/icon_50_51.png" alt="person icon"/>Client Area</h4>
         <p><strong>Portfolio &amp; Business accounts</strong></p>
         <p>This premium private sharing feature allows you to create a fully customisable page for all of your clients. Send a private invitation and they create a SmugMug account to view their unique client page on your site. Don't bother messing around with various private links and passwords you send them.</p>
       </div>
@@ -198,7 +221,7 @@
         <p><strong>Available for everyone</strong></p>
         <p>Digital Grin, or dgrin.com forums has been around almost as long as Google. Mix with other photographers and share your gear, finishing techniques, photos, website etc. Also great for SmugMug support, especially SmugMug customisation.</p>
       </div>
-    </div>
+    </div><a id="pricing"></a>
     <div class="row spacemed">
       <div class="twelve columns">
         <h4>Pricing</h4>
@@ -215,41 +238,42 @@
   <tbody>
     <tr>
       <td>Pay yearly (best value)</td>
-      <td>$40/yr</td>
-      <td>$60/yr</td>
+      <td>$48/yr</td>
+      <td>$72/yr</td>
       <td>$150/yr</td>
       <td>$300/yr</td>
     </tr>
     <tr>
-      <td>Pay monthly (no contract)</td>
-      <td>$5/mo</td>
-      <td>$8/mo</td>
+      <td>Pay month to month</td>
+      <td>$6/mo</td>
+      <td>$9/mo</td>
       <td>$20/mo</td>
       <td>$35/mo</td>
     </tr>
   </tbody>
 </table>
       </div>
-    </div>
+    </div><a id="summary"></a>
     <div class="row spacemed">
       <div class="twelve columns">
         <h4>Summary</h4>
         <p>Obviously I think SmugMug overall is pretty awesome. They did hit a rough patch in August 2012, when they increased prices for some customers by 67% then released the long awaited 'new' SmugMug some 11 months later. I'm sure they've learnt some lessons during that fiasco. Anyway, SmugMug was founded in 2002, that's a wealth of time and experience delivering photos on the web.</p>
         <p>Since the release of the 'new' SmugMug, I believe it's been nothing but popular. They've left no stone unturned, and I'm still finding nifty little features in the back end. I was a basic user for years, but recently upgraded to Power for deep customisation and a custom domain, without paying for the commerce options I'll never need.</p>
-        <p>Click the button below for a <strong>14 Day Free Trial</strong> and also get <strong><u>20% off</u></strong> when you subscribe, with <strong>no credit card required</strong> throughout your trial. Sure there's something small in it for me, but life is too short to not pay for something so awesome!</p>
+        <img class="u-pull-center" src="images/4-half-star-rating.png" alt="4.5 star rating"/>
+        <p class="cntr">I give SmugMug 4.5 out of 5.</p>
+        <p>Click 'create my website' for a <strong>14 day free trial</strong> and also get <strong><u>20% off</u></strong> when you subscribe, with <strong>no credit card required</strong> throughout your trial.</p>
       </div>
     </div>
     <div class="row spacemed">
       <div id="buttontextend" class="twelve columns">
-<a class="button button-primary" href="http://smu.gs/1QcbWIY">Get Started</a>
+<a class="button button-primary" href="http://smu.gs/2tVngCS">Create my website</a>
       </div>
     </div>
     <div class="row spacelge">
       <div class="twelve columns">
         <img class="u-pull-center" src="images/professional-photos.jpg" alt="viewing professional photos"/>
-        <p class="footer">Content are views from my own personal experience and knowledge of using SmugMug's product/service. As stated, I do receive a small referral credit from anyone that purchases a SmugMug product/service by clicking the appropriate link on this website. 
-Please see the SmugMug website for any more information on their product/service.</p>
-        <p class="footer">&copy; Copyright 2015 | Built with <a href="http://getskeleton.com/"><strong>Skeleton</strong></a></p>
+        <p class="footer">This site, <a href="https://sharing.photography/">sharing.photography</a>, is not affiliated with <em>SmugMug, Inc.</em> Content are views from my own personal experience and knowledge of using SmugMug's product/service. Features and specifications of SmugMug’s product/service can often change and therefore this site may not always be 100% accurate. Every effort is made that these features/specifications reflect those found in the SmugMug help center. I do receive a small referral credit, when anyone purchases a SmugMug product/service after clicking the appropriate link on this website. Please see the SmugMug website for any more information on their product/service.</p>
+        <p class="footer">&copy; Copyright 2015-17 | Built with <a href="http://getskeleton.com/">Skeleton</a></p>
       </div>
     </div>
   </div>
