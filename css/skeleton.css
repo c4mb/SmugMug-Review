@@ -408,37 +408,37 @@ form {
 /* CSS Sprites
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 #icon-arrowup {
-  background: url(/images/icon_grid.png) 0 0; }
+  background: url(/images/icon_grid.svg) 0 0; }
 #icon-gears {
-  background: url(/images/icon_grid.png) -43px 0; }
+  background: url(/images/icon_grid.svg) -43px 0; }
 #icon-domain {
-  background: url(/images/icon_grid.png) -86px 0; }
+  background: url(/images/icon_grid.svg) -86px 0; }
 #icon-orangephone {
-  background: url(/images/icon_grid.png) -129px 0; }
+  background: url(/images/icon_grid.svg) -129px 0; }
 #icon-arrowright {
-  background: url(/images/icon_grid.png) 0 -47px; }
+  background: url(/images/icon_grid.svg) 0 -47px; }
 #icon-folder {
-  background: url(/images/icon_grid.png) -43px -47px; }
+  background: url(/images/icon_grid.svg) -43px -47px; }
 #icon-yellowtick {
-  background: url(/images/icon_grid.png) -86px -47px; }
+  background: url(/images/icon_grid.svg) -86px -47px; }
 #icon-locked {
-  background: url(/images/icon_grid.png) -129px -47px; }
+  background: url(/images/icon_grid.svg) -129px -47px; }
 #icon-pinkphone {
-  background: url(/images/icon_grid.png) 0 -94px; }
+  background: url(/images/icon_grid.svg) 0 -94px; }
 #icon-desktop {
-  background: url(/images/icon_grid.png) -43px -94px; }
+  background: url(/images/icon_grid.svg) -43px -94px; }
 #icon-film {
-  background: url(/images/icon_grid.png) -86px -94px; }
+  background: url(/images/icon_grid.svg) -86px -94px; }
 #icon-unlocked {
-  background: url(/images/icon_grid.png) -129px -94px; }
+  background: url(/images/icon_grid.svg) -129px -94px; }
 #icon-greenstar {
-  background: url(/images/icon_grid.png) 0 -141px; }
+  background: url(/images/icon_grid.svg) 0 -141px; }
 #icon-person {
-  background: url(/images/icon_grid.png) -43px -141px; }
+  background: url(/images/icon_grid.svg) -43px -141px; }
 #icon-information {
-  background: url(/images/icon_grid.png) -86px -141px; }
+  background: url(/images/icon_grid.svg) -86px -141px; }
 #icon-speechbubble {
-  background: url(/images/icon_grid.png) -129px -141px; }
+  background: url(/images/icon_grid.svg) -129px -141px; }
 
 /* Misc
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
